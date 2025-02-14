@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Creepster&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&family=Rubik+Wet+Paint&family=Smooch+Sans:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.rubik-wet-paint-regular {
+    font-family: "Rubik Wet Paint", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.playwrite-in {
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+.smooch-sans{
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: rgba(36, 36, 164, 0.646);
+    /* overflow: hidden; */
+}
+.first{
+    font-family: "Smooch Sans", serif;
+    background-color: transparent;
+    overflow:hidden;
+}
+.first ul{
+    width: 100%;
+    list-style: none;
+    color: grey;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.first li{
+    height: auto;
+}
+.first a{
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 30px 50px;
+}
+.first li:first-child{
+    font-family: "Playwrite IN", serif;
+    margin-right: auto;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 150px;
+    color: black;
+}
+.cards{
+    width: 100%;
+    height: auto;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+}
+.part1{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+.part2{
+    position: relative;
+    top: -100px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+#box1{
+    margin: 10px;
+    height: 600px;
+    width: 500px;
+    /* background-color: rgb(255, 117, 117); */
+    background-color: blueviolet;
+    border: none;
+}
+#box1 img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    transition: 0.4s;
+    display: block;
+}
+#box1 > .content{
+    position: absolute;
+    inset: 0;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: rgb(138, 43, 226,0.6);
+    height: 600px;
+    width: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms ease-in-out;
+}
+#box1 > .content.fade{
+    opacity: 0;
+
+}
+#box1:hover > .content.fade{
+    opacity: 1;
+}
+#box2{
+    margin: 10px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
+    height: 770px;
+    width: 600px;
+    /* background-color: rgb(196, 255, 156); */
+    background-color: grey;
+    border: none;
+}
+#box2 img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 770px;
+    position: relative;
+    overflow: hidden;
+}
+#box3{
+    position: relative;
+    left: 575px;
+    top: -75px;
+    margin: 10px;
+    clip-path: polygon(45% 0%, 100% 24%, 0 100%, 0 0);
+    height: 800px;
+    width: 55vw;
+    background-color: orange;
+    border: none;
+}
+#box3 img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+#box4{
+    position: relative;
+    top: -50px;
+    left: -580px;
+    clip-path: polygon(100% 25%, 0% 100%, 100% 100%);
+    margin: 10px;
+    height: 800px;
+    width: 55vw;
+    background-color: gold;
+    border: none;
+}
+#box4 img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 30%;
+    left: 40%;
+}

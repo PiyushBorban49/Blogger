@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Creepster&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&family=Rubik+Wet+Paint&family=Smooch+Sans:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.rubik-wet-paint-regular {
+    font-family: "Rubik Wet Paint", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.playwrite-in {
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+.smooch-sans{
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: linear-gradient(45deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 76%);
+}
+.first{
+    font-family: "Smooch Sans", serif;
+    background-color: transparent;
+    overflow:hidden;
+}
+.first ul{
+    width: 100%;
+    list-style: none;
+    color: grey;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.first li{
+    height: auto;
+}
+.first a{
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 30px 50px;
+}
+.first li:first-child{
+    font-family: "Playwrite IN", serif;
+    margin-right: auto;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 150px;
+    color: black;
+}
+.title{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: 400px;
+    font-family: "Rubik Wet Paint", serif;
+    color: white;
+}
